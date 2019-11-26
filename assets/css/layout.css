@@ -5,10 +5,7 @@
 body {
   margin: 0;
   /* text-align: center; */
-  background-color: #f1f1f1;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 0; }
+  background-color: #f1f1f1; }
   body #layout-main {
     margin-top: 5%;
     min-height: 80vh; }

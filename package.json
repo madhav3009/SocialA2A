@@ -1,7 +1,7 @@
 {
-  "name": "codeial",
+  "name": "codeA2A",
   "version": "1.0.0",
-  "description": "My all social media web application",
+  "description": " social media web application",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
