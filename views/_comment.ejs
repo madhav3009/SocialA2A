@@ -1,17 +1,23 @@
 <link rel="stylesheet" href="/css/comment.css">
-<li id="comment-<%= comment._id %>">
+
+<li class="diffcomment" id="comment-<%= comment._id %>">
         <p>
+     
             <% if (locals.user && locals.user.id == comment.user.id){ %>
-            
+                <img  class="commentavatar " src="<%= user.avatar %>" alt="<%= user.name %>" width="100">
+     
             <small>
-                <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>">X</a>
+                <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>"><i class="fa fa-trash" aria-hidden="true"></i></a>
             </small>
             <% } %>
+            <small>
+                    <%= comment.user.name %>
+                </small>
+        <br /> <br />    
             <%= comment.content %>
             <br>
-            <small>
-                <%= comment.user.name %>
-            </small>
-        </p>    
+
+           
+            </p>    
 
 </li>
