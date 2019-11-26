@@ -1,20 +1,33 @@
-#layout-header nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10px;
-  background: #2196f3;
-  color: white;
-  box-shadow: 1px 1px 1px 1px lightgrey; }
-  #layout-header nav .mini-logo p {
-    margin: 5px;
-    font-size: 1.4rem;
-    font-weight: bold; }
-  #layout-header nav .auth-links ul {
-    margin: 5% 5px;
+#layout-header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin-bottom: 2rem; }
+  #layout-header nav {
     display: flex;
-    list-style: none; }
-    #layout-header nav .auth-links ul li {
-      margin-right: 10px; }
-  #layout-header nav a {
+    justify-content: space-between;
+    padding: 0 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #260cbb, #0262e0);
     color: white;
-    text-decoration: none; }
+    height: 60px; }
+    #layout-header nav .mini-logo a {
+      font-size: 1.2rem;
+      color: white;
+      font-weight: bold; }
+    #layout-header nav .auth-links ul {
+      display: flex;
+      list-style: none; }
+      #layout-header nav .auth-links ul li {
+        margin-right: 20px; }
+    #layout-header nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem; }
+
+#headeravatar {
+  border-radius: 50%;
+  display: block;
+  height: auto;
+  max-width: 10%;
+  max-height: 10%; }

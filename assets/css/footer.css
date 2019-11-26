@@ -1,7 +1,10 @@
 #layout-footer {
+  z-index: -1;
+  position: relative;
+  bottom: 0px;
   color: white;
-  background: grey;
-  padding: 5px 10px;
+  width: 100%;
+  background: linear-gradient(to right, #260cbb, #0262e0);
   display: flex;
   justify-content: flex-start; }
   #layout-footer a {
