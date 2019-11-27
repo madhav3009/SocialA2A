@@ -1,10 +1,11 @@
 .delete-comment-button {
   float: right;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 1.5rem; }
 
 .diffcomment {
+  margin-top: 2rem;
   border-top: 2px solid #d3cece;
   padding: 10px;
   margin: 5px; }

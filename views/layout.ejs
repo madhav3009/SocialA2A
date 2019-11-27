@@ -34,9 +34,11 @@
 
         <%- include('_footer'); %>
 
+        <% if(locals.user) { %>
         
-        <%- include('_chatbox'); %>
-
+            <%- include('_chatbox'); %>
+         <% } %>
+         
         <%- script %>
 
         <script>
