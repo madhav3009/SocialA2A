@@ -7,7 +7,7 @@ body {
   margin: 0;
   letter-spacing: 0.8px;
   /* text-align: center; */
-  background-color: #f1f1f1; }
+  background-color: white; }
   body #layout-main {
     margin-top: 5%;
     min-height: 80vh; }

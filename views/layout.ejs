@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="/css/layout.css">
         <link rel="stylesheet" href="/css/header.css">
         <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/moveToTop.css">
+          
 
         <%- style %>
         
@@ -23,22 +25,30 @@
         <%- include('_header'); %>
 
        
-        
+       
         <main id="layout-main">
             <%- body %>
+             <% if(locals.user) { %>
+                
+            <div id="top">
+                    <a href="#layout-main"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></a>
+                 </div>
+                <%} %> 
 
         </main>
 
 
     
 
-        <%- include('_footer'); %>
+       
 
         <% if(locals.user) { %>
         
             <%- include('_chatbox'); %>
+            <%- include('_moveToTop'); %>
          <% } %>
          
+         <%- include('_footer'); %>
         <%- script %>
 
         <script>
@@ -64,6 +74,8 @@
                 }).show();    
             <%} %>
         </script>
-        
+            
     </body>
+       
+ 
 </html>

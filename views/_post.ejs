@@ -1,11 +1,13 @@
 <link rel="stylesheet" href="/css/post.css">
 
 
+
 <li class="onlypost" id="post-<%= post._id %>">
 
             <div class="newpost">      
         <% if (locals.user && locals.user.id == post.user.id){ %>
             <a class="delete-post-button"  href="/posts/destroy/<%= post.id %>"><i class="fa fa-trash" aria-hidden="true"></i></a>
+           
            
             <img src="<%= user.avatar %>" alt="<%= user.name %>" width="100">
             <small><br />
@@ -17,7 +19,7 @@
                
             <%= post.user.name %>
             </small>
-            <br /> <br /> <br />
+            <br /> 
            <small id="content"> 
         <%= post.content %>
     </small>
@@ -28,10 +30,15 @@
  <small>
      <% if (locals.user){ %>
          <a class="toggle-like-button" data-likes="<%= post.likes.length %>" href="/likes/toggle/?id=<%=post._id%>&type=Post">
-                 <%= post.likes.length %> Likes
+            <%= post.likes.length %> <i class="toggle-like-button fa fa-thumbs-up" aria-hidden="true"></i>      
+            
+                   
+        
          </a>
      <% }else{ %>
-         <%= post.likes.length %> Likes
+           
+         <%= post.likes.length %>  <i class="fa fa-thumbs-up " aria-hidden="true"></i>      
+       
      <% } %>
  </small>
 
