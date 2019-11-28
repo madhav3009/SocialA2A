@@ -5,12 +5,16 @@
   font-size: 1.5rem; }
 
 .diffcomment {
-  margin-top: 2rem;
-  border-top: 2px solid #d3cece;
-  padding: 10px;
-  margin: 5px; }
+  margin-top: 1rem;
+  border-top: 1px solid #f3f0f0;
+  padding: 5px;
+  margin: 2px; }
 
 img {
   width: 50px;
   height: 50px;
   border-radius: 50%; }
+
+.fa-thumbs-up:before {
+  font-size: 1rem !important;
+  color: #16ade9; }
