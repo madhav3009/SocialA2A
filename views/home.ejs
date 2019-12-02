@@ -20,9 +20,7 @@
                     <% for(post of posts){ %>
                         
                     <%- include('_post') -%>
-                    
-                    <%- include('_comment') -%>
-                        
+
                     <%} %>
                 </ul>
             </div>
@@ -44,9 +42,6 @@
 
             <%}%>
 
-            
-
-
         </section>
 </div>
 
@@ -62,3 +57,4 @@
         let toggleLike = new ToggleLike(self);
     });
 </script>
+

@@ -11,6 +11,9 @@ const commentSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User'
     },
+     avatar: {
+        type: String
+    },
     post: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Post'

@@ -32,15 +32,19 @@ span {
 }
 
 a {
-	color: white;
 	text-decoration: none;
+	color:white;
+	
+
 	
 }
+
+.fa-google:before{color:rgb(190, 25, 25);font-size: 2rem;}
 
 button {
 	border-radius: 20px;
 	border: 1px solid rgb(0, 0, 0);
-	color: black;
+	color: white;
 	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
@@ -180,12 +184,12 @@ input {
 }
 
 .social-container a {
-	border: 1px solid #DDDDDD;
+	border: 1px solid rgb(231, 227, 227);
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	margin: 0 5px;
-	height: 40px;
-	width: 40px;
+	height: 60px;
+	width: 60px;
 }

@@ -12,15 +12,14 @@
             <ul>
                 <% if (locals.user){ %>
                     <li> <a href="/"> <img id="headeravatar" src="<%= user.avatar %>" alt="<%= user.name %>"   > </a></li>
+                    
                     <li>
-                
+                        <a href="/users/profile/<%= user.id %>"><%= user.name %></a>
+                    </li>
+               
                     <li>
-                       
-                                <a href="/users/profile/<%= user.id %>"><%= user.name %></a>
-                            </li>
-                <li>
                     <a href="/users/sign-out">Sign Out</a>
-                </li>
+                    </li>
                 <% }else{ %>
                 <li>
                     <a href="/users/sign-in">Sign In</a>

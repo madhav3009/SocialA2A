@@ -19,8 +19,8 @@
         width:100%;
         border-bottom:2px solid rgb(231, 224, 224);
         margin-bottom:2px;
-        a{color:black;font-size: 0.8rem;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Georgia, Times, 'Times New Roman', serif;
-            ;text-align: center;margin-top:5% ;}
+        img{width:40px;height:40px;border-radius: 50%;}
+        a{color:black;font-size: 0.8rem;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Georgia, Times, 'Times New Roman', serif;;text-align: center;margin-top:5% ;}
         div{display: inline;}
        }
        #blur{width:60%;height:70vh;background-color: slategrey;filter: blur(2px);position:fixed;}

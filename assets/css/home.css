@@ -21,6 +21,10 @@
       width: 100%;
       border-bottom: 2px solid #e7e0e0;
       margin-bottom: 2px; }
+      #home-container #users li img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; }
       #home-container #users li a {
         color: black;
         font-size: 0.8rem;
